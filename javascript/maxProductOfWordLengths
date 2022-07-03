@@ -1,0 +1,50 @@
+/**
+ * @param {string[]} words
+ * @return {number}
+ * 
+ * https://leetcode.com/problems/maximum-product-of-word-lengths/
+ */
+
+// var maxProduct = function (words) {
+//   const masks = words.map((word) => {
+//     let mask = 0;
+//     console.log("word is :", word)
+//     for (let i = 0; i < word.length; i++) {
+//       const c = word.charCodeAt(i) - 97;
+//       mask |= (1 << c);
+//       console.log("mask: ", mask)
+//     }
+
+//     return mask;
+//   });
+//   console.log("masks:::", masks)
+//   let ans = 0;
+
+//   for (let i = 0; i < words.length; i++) {
+//     for (let j = i + 1; j < words.length; j++) {
+//       console.log("masks[i] & masks[j]: ", masks[i] & masks[j])
+//       if (masks[i] & masks[j]) {
+//         continue;
+//       }
+
+//       const length = words[i].length * words[j].length;
+//       ans = Math.max(ans, length);
+//     }
+//   }
+
+//   return ans;
+// };
+
+
+var maxProduct = function (words) {
+  // sorted
+  const sortedWords = words.sort((a, b) => b.length - a.length)
+  console.log("sorted words: ", sortedWords)
+  const resultWords = []
+
+  for (let word of sortedWords) {
+    
+  }
+};
+
+console.log(maxProduct(["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]))
