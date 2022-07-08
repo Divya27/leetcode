@@ -1,2 +1,116 @@
-  - pending :  greatest letter in upper and lower case
-  - to be submitted : percentage letter
+
+Pending:
+  - js : keyboard row
+  - js : number of lines to write string
+  - js : monotonic array
+  - js : unique email addresses
+  - js : find common characters
+
+To Be Fixed: 
+  - js : longest valid parentheses
+  - js : roman to integer
+  - js : sort array by parity II
+  - js : super pow
+  - js : triangle
+  - js : intersection of two array II
+
+To Be Sumitted:
+  - js : capitalize the title
+  - js : masking personal info
+
+
+Submitted:
+  - js : max consecutive ones 
+  - js : squares of a sorted array
+  - js : two sum
+  - mysql : duplicate emails
+  - js : palindrome number
+  - js : longest common prefix
+  - js : add two integers
+  - js : concatenation of array
+  - js : ransom note
+  - mysql : find total time spent by each employee
+  - js : reverse string
+  - js : fizz buzz
+  - js : backspace string compare
+  - js: sort array by parity
+  - mysql : combine two tables
+  - mysql : recyclable and low fat products
+  - mysql : game play analysis I
+  - mysql : capital gain/loss
+  - mysql : calculate special bonus
+  - mysql : daily leads and partners
+  - mysql : rearrange products table
+  - js : implement strstr()
+  - js : length of last word
+  - mysql : second highest salary
+  - mysql  nth highest salary
+  - mysql : customers who never order
+  - mysql : bank account summary II
+  - mysql : find customer referee
+  - mysql : top travellers
+  - mysql : big countries
+  - js : reverse vowels of a string
+  - js : build array from permutation
+  - mysql : customer placing the largest number of orders
+  - mysql : group sold products by the date
+  - mysql : not boring movies
+  - js : reverse integer
+  - js : median of two sorted arrays
+  - js : remove digit from number to maximize result 
+  - js : pow(x, n)
+  - mysql : customer who visited but did not make any transactions
+  - mysql : delete duplicate emails
+  - js : lemonade change
+  - js : valid parentheses
+  - js : swap salary 
+  - js : number of 1 bits
+  - js : number of steps to reduce a number to zero
+  - mysql : employees with missing information
+  - js : missing number
+  - mysql : patients with a condition
+  - mysql : fix names in a table
+  - js : maximum number of words in sentences
+  - js : find all numbers disappeared in an array
+  - js : valid palindrome
+  - js : running sum of 1D array
+  - js : transpose matrix
+  - js : plus one
+  - js : two sum II - input array is sorted
+  - js : binary search 
+  - js : single number
+  - js : remove duplicates form sorted array
+  - js : best time to buy and sell stock 
+  - js : merge sorted array
+  - js : remove palindromic subsequences
+  - js : longest substring without repeating characters
+  - js : minimum operations to reduce X to zero
+  - mysql : rank scores
+  - mysql : sales person
+  - js : contains duplicate
+  - mysql : actors and directors who cooperated atleast three times
+  - js : search insert position
+  - js : defanging an IP address
+  - js : find value of variable after performing operations
+  - js : jewels and stones
+  - js : shuffle string
+  - js : goal parser interpretation
+  - js : sorting the sentence
+  - js : to lower case
+  - js : truncate sentence
+  - js : check if two string arrays are equivalent
+  - js : majority element
+  - js : richest customer wealth
+  - js : add digits 
+  - js : count items matching a rule 
+  - js : arranging coins
+  - js : third maximum number 
+  - js : number of segments in a string
+  - js : detect capital 
+  - js : longest consecutive sequence
+  - js : fibonacci number
+  - js : reformat date
+  - js : greatest letter in upper and lower case
+
+
+
