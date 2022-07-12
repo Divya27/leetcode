@@ -8,7 +8,7 @@ var maskPII = function (s) {
   if (s.includes("@")) {
     // email
     const splitEmail = s.toLowerCase().split("@")
-    return `${splitEmail[0][0]}*****${splitEmail[0][splitEmail.length - 1]}@${splitEmail[1]}`
+    return `${splitEmail[0][0]}*****${splitEmail[0][splitEmail[0].length - 1]}@${splitEmail[1]}`
   } else {
     // phone number
     // replace non digit char with empty string
@@ -17,7 +17,7 @@ var maskPII = function (s) {
     console.log("last4Digit: ", last4Digit)
     // check length of number
     if (s.length === 10) return `***-***-${last4Digit}`
-    else return `+${'*'.repeat(s.length - 11)}-***-***-${last4Digit}`
+    else return `+${'*'.repeat(s.length - 10)}-***-***-${last4Digit}`
   }
 };
 

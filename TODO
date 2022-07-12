@@ -16,9 +16,9 @@ To Be Fixed:
   - mysql : latest login in 2020
 
 To Be Sumitted:
-  - js : capitalize the title
-  - js : masking personal info
-  - mysql : employees earning more than their managers
+  
+  
+  
 
 
 Submitted:
@@ -113,6 +113,7 @@ Submitted:
   - js : fibonacci number
   - js : reformat date
   - js : greatest letter in upper and lower case
-
-
+  - js : capitalize the title
+  - mysql : employees earning more than their managers
+  - js : masking personal info
 
