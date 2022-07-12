@@ -1,7 +1,6 @@
 
 Pending:
   - js : keyboard row
-  - js : number of lines to write string
   - js : monotonic array
   - js : unique email addresses
   - js : find common characters
@@ -114,4 +113,5 @@ Submitted:
   - js : capitalize the title
   - mysql : employees earning more than their managers
   - js : masking personal info
+  - js : number of lines to write string
 
