@@ -4,16 +4,18 @@ Pending:
   - js : monotonic array
   - js : find common characters
 
-To Be Fixed: 
+To Be Fixed:
   - js : longest valid parentheses
   - js : roman to integer
   - js : sort array by parity II
   - js : super pow
   - js : triangle
   - js : intersection of two array II
-  - mysql : latest login in 2020
+  
 
 To Be Sumitted:
+  - mysql : latest login in 2020
+  - mysql : find followers count
   
 
 
@@ -114,3 +116,4 @@ Submitted:
   - js : masking personal info
   - js : number of lines to write string
   - js : unique email addresses
+  - js : license key formatting
