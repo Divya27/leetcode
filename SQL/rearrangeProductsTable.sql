@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+# https://leetcode.com/problems/rearrange-products-table
 
 SELECT product_id, 'store1' AS store, store1 AS price FROM Products WHERE store1 IS NOT NULL
 UNION ALL 

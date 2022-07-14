@@ -1,4 +1,6 @@
 # Write your MySQL query statement below
+# https://leetcode.com/problems/capital-gainloss
+
 select stock_name,sum(
 case
 when operation = 'Buy' then -price

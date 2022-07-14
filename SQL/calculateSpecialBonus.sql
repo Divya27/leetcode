@@ -1,4 +1,6 @@
 # Write your MySQL query statement below
+# https://leetcode.com/problems/calculate-special-bonus
+
 select employee_id, 
 case 
 when (employee_id%2 != 0) and (substring(name, 1, 1) != 'M') 

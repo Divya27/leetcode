@@ -3,6 +3,17 @@ Pending:
   - js : keyboard row
   - js : monotonic array
   - js : find common characters
+  - mysql : consecutive numbers
+  - mysql : department top three salaries
+  - mysql : rising temperature
+  - mysql : trips and users
+  - mysql : human traffic of stadium
+  - mysql : tree node
+  - mysql : exchange seats
+  - mysql : sales analysis III
+  - mysql : user activity for the past 30 days I
+  - mysql : market analysis I
+  - mysql : reformat department table
 
 To Be Fixed:
   - js : longest valid parentheses
@@ -11,12 +22,14 @@ To Be Fixed:
   - js : super pow
   - js : triangle
   - js : intersection of two array II
+  - mysql : department highest salary
   
 
 To Be Sumitted:
   - mysql : latest login in 2020
   - mysql : find followers count
-  
+  - mysql : article views I
+  - mysql : classes more than 5 students
 
 
 Submitted:
