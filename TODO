@@ -5,15 +5,13 @@ Pending:
   - js : find common characters
   - mysql : consecutive numbers
   - mysql : department top three salaries
-  - mysql : rising temperature
   - mysql : trips and users
   - mysql : human traffic of stadium
   - mysql : tree node
   - mysql : exchange seats
   - mysql : sales analysis III
   - mysql : user activity for the past 30 days I
-  - mysql : market analysis I
-  - mysql : reformat department table
+  - js : first bad version
 
 To Be Fixed:
   - js : longest valid parentheses
@@ -23,14 +21,17 @@ To Be Fixed:
   - js : triangle
   - js : intersection of two array II
   - mysql : department highest salary
+  - js : ugly number
   
 
 To Be Sumitted:
   - mysql : latest login in 2020
+  - mysql : rising temperature
   - mysql : find followers count
   - mysql : article views I
   - mysql : classes more than 5 students
-
+  - mysql : market analysis I
+  - mysql : reformat department table
 
 Submitted:
   - js : max consecutive ones 
@@ -130,3 +131,4 @@ Submitted:
   - js : number of lines to write string
   - js : unique email addresses
   - js : license key formatting
+  - js : goat latin
