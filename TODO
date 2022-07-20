@@ -15,7 +15,6 @@ Pending:
 
 To Be Fixed:
   - js : longest valid parentheses
-  - js : roman to integer
   - js : sort array by parity II
   - js : super pow
   - js : triangle
@@ -135,3 +134,5 @@ Submitted:
   - js : valid anagram
   - js : shuffle the array
   - js : first unique character in a string
+  - js : pascals triangle
+  - js : roman to integer
