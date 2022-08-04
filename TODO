@@ -9,7 +9,6 @@ Pending:
   - mysql : human traffic of stadium
   - mysql : tree node
   - mysql : exchange seats
-  - mysql : sales analysis III
   - mysql : user activity for the past 30 days I
   - js : first bad version
 
@@ -24,12 +23,7 @@ To Be Fixed:
   
 
 To Be Sumitted:
-  - mysql : latest login in 2020
-  - mysql : rising temperature
-  - mysql : find followers count
-  - mysql : article views I
-  - mysql : classes more than 5 students
-  - mysql : market analysis I
+  
 
 Submitted:
   - js : max consecutive ones 
@@ -142,3 +136,10 @@ Submitted:
   - mysql : reformat department table
   - js : intersection of two arrays
   - js : remove element
+  - mysql : latest login in 2020
+  - mysql : rising temperature
+  - mysql : article views I
+  - mysql : classes more than 5 students
+  - mysql : market analysis I
+  - mysql : find followers count
+  - mysql : sales analysis III
