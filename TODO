@@ -20,6 +20,7 @@ To Be Fixed:
   - js : intersection of two array II
   - mysql : department highest salary
   - js : ugly number
+  - js: complement of base 10 integer
   
 
 To Be Sumitted:
@@ -146,3 +147,5 @@ Submitted:
   - js: reverse words in a string III
   - js: uncommon words from two sentences
   - js : base 7
+  - js : flipping an image
+  - js : element appearing more than 25 in sorted array
