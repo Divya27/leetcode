@@ -6,7 +6,7 @@
  
 */
 
-var lengthOfLongestSubstring = function (s) {
+var lengthOfLongestSubstring1 = function (s) {
   let str = '';
   let maxLength = 0;
 
@@ -28,7 +28,7 @@ var lengthOfLongestSubstring = function (s) {
   return maxLength;
 };
 
-console.log(lengthOfLongestSubstring('abcabcdefghf'))
+// console.log(lengthOfLongestSubstring('abcabcdefghf'))
 
 
 /**
@@ -85,3 +85,26 @@ var lengthOfLongestSubstring = function (s) {
   return maxLength
 };
  */
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function (s) {
+  let maxLength = 0;
+  let left = 0;
+  let subStrSet = new Set();
+  for (let right = 0; right < s.length; right++) {
+    while (subStrSet.has(s[right])) {
+      subStrSet.delete(s[left]);
+      left++;
+    }
+    subStrSet.add(s[right]);
+    maxLength = Math.max(maxLength, right - left + 1);
+  }
+  return maxLength;
+};
+
+// console.log(lengthOfLongestSubstring('abcabcdefghf'))
+console.log(lengthOfLongestSubstring('abcabcbb'))
+console.log(lengthOfLongestSubstring('pwwkew'))
