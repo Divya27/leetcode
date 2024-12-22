@@ -19,7 +19,9 @@ var missingNumber = function (nums) {
   let xor = 0;
   for (let i = 0; i <= nums.length; i++) {
     xor = xor ^ i;
+    // console.log("i: xor: ", i, xor);
   }
+  // console.log("XOR: ", xor);
   for (let num of nums) {
     xor = xor ^ num;
   }

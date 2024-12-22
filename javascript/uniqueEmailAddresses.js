@@ -5,7 +5,20 @@
  * https://leetcode.com/problems/unique-email-addresses/
  */
 var numUniqueEmails = function (emails) {
-  return new Set(emails.map(email => `${email.split('@')[0].split('+')[0].split('.').join('')}@${email.split('@')[1]}`)).size
+  // return new Set(emails.map(email => `${email.split('@')[0].split('+')[0].split('.').join('')}@${email.split('@')[1]}`)).size
+
+  let emailMap = new Set();
+  for (let email of emails) {
+    let [local, domain] = email.split('@');
+    local = local.split('+')[0];
+    local = local.replaceAll('.', '');
+    // console.log("local: ", local);
+    // console.log("domain: ", domain);
+    emailMap.add(`${local}@${domain}`, true);
+  }
+  // console.log("emailMap: ", emailMap.size);
+  return emailMap.size;
+  
 };
 
 // console.log(numUniqueEmails(["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"]))
