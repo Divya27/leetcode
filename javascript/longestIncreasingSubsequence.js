@@ -28,32 +28,32 @@ var lengthOfLIS = function (nums) {
   // return Math.max(...dp);
 
   // Approach 2 - using binary search TC: O(n log n)
-  let tails = [];
+  let subsequences = [];
 
   for (let num of nums) {
     let left = 0;
-    let right = tails.length;
+    let right = subsequences.length;
 
     // Use binary search to find the position to replace or append the number
     while (left < right) {
       let mid = Math.floor((left + right) / 2);
-      if (tails[mid] < num) {
+      if (subsequences[mid] < num) {
         left = mid + 1;
       } else {
         right = mid;
       }
     }
 
-    // If num is larger than all elements, append it to the tails array
-    if (left === tails.length) {
-      tails.push(num);
+    // If num is larger than all elements, append it to the subsequences array
+    if (left === subsequences.length) {
+      subsequences.push(num);
     } else {
       // Otherwise, replace the element at the found index
-      tails[left] = num;
+      subsequences[left] = num;
     }
   }
 
-  return tails.length;
+  return subsequences.length;
 
 };
 
