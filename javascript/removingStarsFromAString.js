@@ -14,6 +14,7 @@ var removeStars = function (s) {
     if (s[i] !== '*') stack.push(s[i])
     else stack.pop();
   }
+  console.log("stack: ", stack);
   return stack.join('');
 };
 

@@ -1,0 +1,29 @@
+Tech - Coding 
+
+=> Stack 
+
+• valid parenthesis - https://leetcode.com/problems/valid-parentheses/description/?envType=problem-list-v2&envId=stack
+• simplify path - https://leetcode.com/problems/simplify-path/description/?envType=study-plan-v2&envId=top-interview-150
+• removing stars from a string - https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75
+• asteroid collision - https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75
+• decode string - https://leetcode.com/problems/decode-string/description/?envType=study-plan-v2&envId=leetcode-75
+• evaluate reverse polish notation - https://leetcode.com/problems/evaluate-reverse-polish-notation/description/?envType=study-plan-v2&envId=top-interview-150
+• min stack - https://leetcode.com/problems/min-stack/description/?envType=study-plan-v2&envId=top-interview-150
+• calculator - https://leetcode.com/problems/basic-calculator/description/?envType=study-plan-v2&envId=top-interview-150
+
+
+
+
+
+
+
+
+
+Algorithms:
+
+kadane's algo : Maximum sub array
+Euclidean Algorithm for strings : 
+    GCD(a,b) = (b === 0) ? a : GCD(b, a % b) 
+    gcd(str1, str2) =  = gcd(str1, str2.substring(0, len(str1) % len(str2)))
+    
+

@@ -45,6 +45,8 @@ var floodFill = function (image, sr, sc, color) {
   // while (queue.length) {
   //   // fetch from queue
   //   const [r, c] = queue.shift();
+  //   if (image[r][c] === color) continue;
+
   //   if (image[r][c] === originalColor) {
   //     image[r][c] = color;
   //     // check for neighbours

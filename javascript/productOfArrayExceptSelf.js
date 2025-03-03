@@ -8,6 +8,7 @@
  * @return {number[]}
  */
 var productExceptSelf = function (nums) {
+  // approach 1 
   const n = nums.length;
   // result array
   const result = new Array(n);
@@ -15,10 +16,10 @@ var productExceptSelf = function (nums) {
   // left product
   // left product of 1st elem will be 1, no elems on the left
   result[0] = 1;
-  for (i = 1; i < n; i++) {
+  for (let i = 1; i < n; i++) {
     result[i] = result[i - 1] * nums[i - 1];
   }
-
+  console.log("result: left product: ", result)
   // calculate right product
   // right product of right most elem will be 1 
   let rightProduct = 1;

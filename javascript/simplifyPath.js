@@ -28,7 +28,7 @@ var simplifyPath = function (path) {
 };
 
 console.log(simplifyPath('/home/'))
-// console.log(simplifyPath('/home//foo/'))
+console.log(simplifyPath('/home//foo/'))
 // console.log(simplifyPath('/home/user/Documents/../Pictures'))
 // console.log(simplifyPath('/../'))
 // console.log(simplifyPath('/.../a/../b/c/../d/./'))

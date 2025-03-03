@@ -40,7 +40,7 @@ var cloneGraph = function (node) {
 
   // return dfs(node);
 
-  // BFS approach 
+  // BFS approach
   if (!node) return null;
   const map = new Map();
 

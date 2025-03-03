@@ -27,7 +27,7 @@ var reverseWords = function (s) {
 
   // Reverse the entire string
   reverse(arr, 0, arr.length - 1);
-  console.log(arr);
+  console.log("entire string reverse: ", arr);
   
   let start = 0;
 
